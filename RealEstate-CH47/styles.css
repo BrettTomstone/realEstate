@@ -1,0 +1,49 @@
+
+html {
+    font-size: 16px;
+}
+
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: arial;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu a{
+    color: white;
+    margin: 0px 10px;
+}
+.site-header{
+    display: flex;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    flex-direction:column;
+    justify-content: top;
+    object-position: 45%;
+    align-items:center;
+    height: 300px;
+    color:white;
+}
+
+.site-header a{
+
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    
+}
